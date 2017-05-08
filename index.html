@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>个人网站</title>
+    <link rel="stylesheet" href="css/public.css"/>
+    <link rel="stylesheet" href="css/home.css"/>
+     <script src="js/elastic.js"></script>
+    <script src="js/startMove.js"></script>
+    <script src="js/public.js"></script>
+    <script src="js/doMove.js"></script>
+</head>
+<body>
+<div class="box" id="box"></div>
+<div class="warp">
+    <div class="grzl">
+        <div class="img">
+            <img src="img/bg.png" alt="">
+        </div>
+        <div id="contro">
+            <li><a href="index.html">首页</a></li>
+            <li><a href="#jn">个人技能</a></li>
+            <li><a href="#job">工作经验</a></li>
+            <li><a href="#shili">作品展示</a></li>
+            <li id="btn"><a href="#">点击</a></li>
+            <li class="fly"></li>
+        </div>
+        <div class="log" style="text-align: center;line-height: 200px;font-size: 50px;">
+            谢谢欣赏
+        <span style="font-size: 18px;">X</span>
+        </div>    
+        <div class="photo" id="photo">
+            <div id="div" class=""></div>
+            <div class="show" id="show"></div>
+            <div class="apply" id='apply'></div>
+            <audio loop="loop" id="audio" src="demo/audio/yinyue.mp3" class="audio"></audio>
+        </div>
+        <div class="pageMove" id="pageMove" style="width:400px;height:200px;position: absolute;right: 130px;top:150px;color:white;font-size: 20px;"></div>  
+    </div>
+    <div class="jn" id="jn">
+        <h4 style="text-align: center;font-size:12px;">个人技能</h4>
+        <div class="jn_warp">
+            <ul id="jn_ul">
+                <li style="left: 0px;">
+                    <span>
+                        布局
+                        熟练使用网页布局，了解当前流行的响应式布局，流式布局、栅格布局等布局方式。
+                        移动端:对于移动终端有了解，能够熟练写出移动端的界面；
+                        CSS
+                        了解BFC以及如何触发BFC和CSS hack等CSS特性、CSS3的新属性以及浏览器的兼容性问题；
+                    </span>
+                </li>
+                <li style="left: 0px">
+                    <span>
+                         JavaScript：能熟悉使用JS完成网页的交互效果，能够熟练的运用ajax进行数据的交互，
+                        以及JSONP工作原理，解决跨域问题。
+                        能够熟练使用原生JS写出效果，了解JS执行机制。
+                        能运用模块化、面向对象的方式编程。
+                    </span>
+                </li>
+                <li style="left: 0px">
+                    <span>
+                        熟练使用JQ插件进行开发；了解bootstrap/angularjs/nodeJS</br>
+                        等前端开发框架有一定的了解；并能简单的进行使用。了解前端的MVC开发模式。
+                    </span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="jn" id="job">
+        <h4 style="text-align: center;font-size:12px;">工作经验</h4>
+        <div class="gzcd">
+            <div class="cd-left">
+                <div class="cd-top">
+                    <h3>天点科技有限公司</h3>
+                    <p>
+                      <br>
+                       HTML+CSS+JavaScript
+                       +jQuery+aJax
+						
+                    </p>
+                </div>
+                <div class="cd-bottom">
+                    <p>
+                        <br>
+                        HTML5+CSS3
+                    </p>
+                </div>
+                <span class="span" id="span"></span>
+            </div>
+        </div>
+    </div>
+    <div class="zpzs">
+        <h4 style="text-align: center;font-size:12px;">项目经验</h4>
+        <div class="project">
+            <div class="project_left">
+                <div class="project_3d">
+                    <div class="projectCover" style="background:#fff url(img/shuye.png) no-repeat;background-size: cover">
+                        <h5 style="line-height: 200px;">大家印官方网站</h5>
+                    </div>
+                    <div class="projectContent">
+                      根据原型图进行页面开发，编写网站的基本结构以及实现各大主流浏览器间的兼容。使用原生JavaScript实现网页动态效果。根据PM提的需求制订合理的实现方案；对网站进行性能提升和优化。
+                    </div>
+                </div>
+            </div>
+            <div class="project_left">
+                <div class="project_3d">
+                    <div class="projectCover" style="background:#fff url(img/12.jpg) no-repeat;background-size: cover">
+                        <h5 style="line-height: 200px;">中原第一城官网</h5>
+                    </div>
+                    <div class="projectContent">
+                          该项目在原网页基础上进行结构改造，使之成为更完善的响应式网站；进行jQuery代码和HTML、CSS的编写；代码合并压缩等优化
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="zpzs" id="shili">
+        <h4 style="text-align: center;font-size:12px;">作品展示</h4>
+        <div class="zwarp" id="zwarp">
+            <ul id="oul">
+                <a href="demo/3D立体效果/3Dliti.html" target="_blank">
+                    <li>
+                        3D立体
+                    </li>
+                </a>
+                <a href="demo/弹性运动/漂浮广告(碰撞运动).html" target="_blank">
+                    <li>
+                        弹性运动
+                    </li>
+                </a>
+                <a href="demo/3D图片轮换/3D转换.html" target="_blank">
+                    <li>
+                        3D转换
+                    </li>
+                </a>
+                <a href="demo/官网效果展示/官网效果展示.html" target="_blank">
+                    <li>
+                        图片切换
+                    </li>
+                </a>
+                <a href="demo/拖拽/照片墙.html" target="_blank">
+                    <li>
+                        拖拽
+                    </li>
+                </a>
+                <a href="demo/无缝滚动/无缝滚动.html" target="_blank">
+                    <li>
+                        无缝滚动
+                    </li>
+                </a>
+            </ul>
+        </div>
+    </div>
+</div>
+</body>
+</html>
